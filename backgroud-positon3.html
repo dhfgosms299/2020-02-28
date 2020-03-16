@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>backgroud-position3</title>
+  <style>
+     p{width:500px; height:500px; background-image:url(image/ball.jpg);
+      background-repeat:no-repeat; border:1px solid red;}
+   .posit1{background-position:center center;}
+   .posit2{background-position:50% 50%;}
+   .posit3{background-position:200px 200px;}
+   /* 수치 px로 위치를 잡을경우 사진,표,박스의 좌측 상단이
+    기준점이 되므로 사진의 크기를 감안하여 위치값을 조정하여야 함.
+    사진의 가로/ 세로 반만큼 위치 값에서 빼주어야 정중앙에 위치됨*/
+  </style>
+</head>
+<body>
+    <h2>backgroud-position 3</h2>
+    <p class="posit1">center center</p>
+    <p class="posit2">50% 50%</p>
+    <p class="posit3"><br>
+        200px 200px 중심(수치재는 법 백분율의 2분의 1 - 50)<br>
+        50 나누기 2 = 25 (250px - 50 = 중심점)</p>
+
+</body>
+</html>
